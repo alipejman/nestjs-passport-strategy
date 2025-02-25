@@ -6,7 +6,7 @@ export function typeOrmConfig(): TypeOrmModuleOptions {
     host: "localhost",
     port: 5432,
     username: "postgres",
-    password: "password",
+    password: "aliapi",
     database: "nest-auth",
     entities: [
       "dist/**/**/**/*.entity{.ts,.js}",
